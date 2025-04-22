@@ -2,11 +2,13 @@ import Image from "next/image";
 import React from "react";
 import { Button } from "../ui/button";
 import SectionHeader from "../ui/section-header";
+import { SECTIONS } from "@/lib/const";
+import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section className="w-full">
-      <div className="container mx-auto flex items-end justify-between mt-6">
+    <section id={SECTIONS.HERO} className="w-full scroll-mt-28">
+      <div className="container mx-auto flex items-end justify-between mt-6 px-4">
         <div className="flex flex-col gap-[8.4375rem]">
           <div className="flex flex-col items-start gap-5">
             <p className="uppercase text-black text-[1.125rem]/[1.3125rem] font-normal">
@@ -21,9 +23,9 @@ const Hero = () => {
               Efficient and reliable cleaning services tailored to your needs,
               keeping your home and office spotless in Jönköping.
             </p>
-            <Button variant="primary">
-              Book an Appointment
-            </Button>
+            <Link href="/booking">
+              <Button variant="primary">Book an Appointment</Button>
+            </Link>
           </div>
           <div className="pb-[2.125rem]">
             <SectionHeader
@@ -33,7 +35,7 @@ const Hero = () => {
             />
           </div>
         </div>
-        <div className="relative">
+        <div className="relative hidden md:block">
           <Image
             width={516}
             height={638}

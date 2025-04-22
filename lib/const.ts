@@ -1,0 +1,7 @@
+export enum SECTIONS {
+    HERO = "HERO",
+    ABOUTUS = "ABOUTUS",
+    SERVICES = "SERVICES",
+    PRICES = "PRICES",
+    CONTACTUS = "CONTACTUS",
+}
