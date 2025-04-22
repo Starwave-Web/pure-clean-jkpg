@@ -120,6 +120,7 @@ const CloseIcon = (props: SVGProps<ComponentRef<"svg">>) => {
 const HamburgerMenu = (props: SVGProps<ComponentRef<"svg">>) => {
   return (
     <svg
+    {...props}
       width="30"
       height="21"
       viewBox="0 0 30 21"
