@@ -11,6 +11,7 @@ const EmployeeCard = ({
   role: string;
   social: { whatsapp: string; instagram: string };
 }) => {
+  console.log(social);
   return (
     <div className="rounded-md border border-light-gray bg-white flex flex-col items-center w-full max-w-[17.375rem] max-h-[22.8125rem]">
       <div className="bg-light-gray">

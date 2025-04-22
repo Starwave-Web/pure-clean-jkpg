@@ -12,7 +12,7 @@ const Protocol = () => {
         </div>
         <div className="relative">
           <div className="absolute inset-0 w-full h-full bg-linear-[0deg,white_0%,transparent_25%,transparent_75%,white_100%]" />
-          <ul className="text-[2rem]/[2.375rem] text-primary-blue font-bold uppercase flex flex-col gap-2">
+          <ul className="text-[1.75rem]/[2.375rem] text-primary-blue font-bold uppercase flex flex-col gap-2">
             <li className="flex items-center gap-2.5">
               <CheckMarkIcon />
               4. Window and Frame Cleaning

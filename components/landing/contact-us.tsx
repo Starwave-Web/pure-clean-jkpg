@@ -48,7 +48,7 @@ const ContactUs = () => {
             welcoming.
           </p>
         </div>
-        {users.map(user => <ContactCard {...user}/>)}
+        {users.map(({ key, ...user }) => <ContactCard key={key} {...user}/>)}
       </div>
     </section>
   );
