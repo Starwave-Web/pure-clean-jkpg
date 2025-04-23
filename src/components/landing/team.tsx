@@ -4,26 +4,24 @@ import SectionHeader from "../ui/section-header";
 import Tekla from "@/assets/images/tekla.png";
 import Endre from "@/assets/images/endre.png";
 import EmployeeCard from "../ui/employee-card";
-import Link from "next/link";
+import { Link } from "@/src/i18n/routing";
+import { useTranslations } from "next-intl";
 
 const Team = () => {
+  const t = useTranslations("team");
+
   return (
     <section className="w-full">
       <div className="container mx-auto flex flex-col md:flex-row gap-0 md:gap-5 items-center my-[6.25rem] px-4">
         <div className="flex flex-col gap-5 my-[6.25rem] items-start md:w-1/2">
           <SectionHeader
-            subtitle="OUR TEAM"
-            title="This is a family business"
+            subtitle={t("subtitle")}
+            title={t("title")}
             alignment="start"
           />
-          <p>
-            We are a couple living in Jönköping, running a small family business
-            with dedication and passion. Our mission is to provide quality
-            cleaning services with a personal touch, ensuring every space we
-            clean feels like home.
-          </p>
+          <p>{t("description")}</p>
           <Link href="/booking">
-            <Button variant="primary">Book an Appointment</Button>
+            <Button variant="primary">{t("buttonText")}</Button>
           </Link>
         </div>
         <div className="flex items-center gap-5">

@@ -1,0 +1,154 @@
+{
+    "thankYou": {
+        "heading": "Thank You for Your Submission!",
+        "subheading": "We've received your application and will be in touch soon!",
+        "button": "Return to Home page"
+      },
+      "footer": {
+    "brand": "PureClean Jönköping",
+    "description": "Efficient and reliable cleaning services tailored to your needs, keeping your home and office spotless in Jönköping.",
+    "services": {
+      "title": "Services",
+      "house": "House Cleaning",
+      "office": "Office Cleaning",
+      "deep": "Deep Cleaning",
+      "move": "Move-In/Move-Out Cleaning"
+    },
+    "links": {
+      "title": "Useful Links",
+      "home": "Home",
+      "about": "About Us",
+      "service": "Service",
+      "contact": "Contact Us"
+    },
+    "contact": {
+      "title": "Contact",
+      "phone": "+46 79 3419 242",
+      "email": "purecleanjpkg@gmail.com",
+      "address": "554 58 Jönköping, Tallörtsbacken 25."
+    },
+    "copyright":
+      "Copyright by PureClean Jönköping @ 2025. All rights reserved"
+  },
+  "navbar": {
+    "companyName": "PureClean Jönköping",
+    "home": "Home",
+    "aboutUs": "About Us",
+    "services": "Services",
+    "prices": "Prices",
+    "contact": "Contact",
+    "language": "SV | EN",
+    "bookAppointment": "Book an Appointment"
+  },
+  "aboutUs": {
+    "subtitle": "About Us",
+    "title": "Your Trusted Cleaning Partner in Jönköping",
+    "description1": "Based in Jönköping, we are committed to delivering top-notch cleaning services tailored to your needs.",
+    "description2": "Our goal is to provide exceptional quality at a great price, ensuring your space is always spotless and welcoming.",
+    "buttonText": "Our Services"
+  },
+  "contactUs": {
+    "title": "Contact Us",
+    "description1": "Have questions or need a personalized cleaning quote? Reach out to us today! We’re here to help you keep your space spotless and welcoming.",
+    "description2": "We speak English at the moment, but we’re learning Swedish. Feel free to reach out in English — we’ll respond quickly and happily!",
+    "buttonText": "Book an Appointment"
+  },
+  "hero": {
+    "subtitle": "Your Local Cleaning Experts",
+    "titlePart1": "Spotless Spaces,",
+    "titlePart2": "Happy Faces",
+    "description": "Efficient and reliable cleaning services tailored to your needs, keeping your home and office spotless in Jönköping.",
+    "buttonText": "Book an Appointment",
+    "brandsSubtitle": "Quality You Can Trust",
+    "brandsTitle": "BRANDS WHO WE USE"
+  },
+  "prices": {
+    "title": "Our Prices",
+    "description": "We offer competitive rates to fit your budget without compromising on quality.",
+    "quote": "Quote",
+    "houseCleaning": "House Cleaning",
+    "officeCleaning": "Office Cleaning",
+    "deepCleaning": "Deep Cleaning",
+    "moveInMoveOutCleaning": "Move-In/Move-Out Cleaning",
+    "free": "Free",
+    "hour": "hour"
+  },
+  "protocol": {
+    "title": "Strict Cleaning Guidelines",
+    "steps": [
+      "Window and Frame Cleaning",
+      "Vacuuming the bathroom",
+      "Toilet cleaning",
+      "Washing the sink and faucet",
+      "Cleaning the shower tiles",
+      "Washing the shower door"
+    ]
+  },
+  "services": {
+    "title": "Comprehensive Cleaning Solutions",
+    "subtitle": "Our Services",
+    "services": [
+      {
+        "title": "House Cleaning",
+        "description": "Keep your home spotless with tailored cleaning routines that fit your lifestyle and schedule."
+      },
+      {
+        "title": "Office Cleaning",
+        "description": "Maintain a pristine work environment with efficient, reliable cleaning for offices and commercial spaces."
+      },
+      {
+        "title": "Deep Cleaning",
+        "description": "Thorough top-to-bottom cleaning to refresh your space, including hard-to-reach areas and detailed care."
+      },
+      {
+        "title": "Move-In/Move-Out Cleaning",
+        "description": "Leave your old place spotless or your new one move-in ready with our detailed cleaning service."
+      }
+    ]
+  },
+  "stats": {
+    "customerSatisfaction": {
+      "title": "98%",
+      "subtitle": "Customer Satisfaction"
+    },
+    "experience": {
+      "title": "5+ Years",
+      "subtitle": "of Experience"
+    },
+    "recurringClients": {
+      "title": "80%",
+      "subtitle": "Recurring Clients"
+    },
+    "responseTime": {
+      "title": "4 Hours",
+      "subtitle": "Response Time"
+    }
+  },
+  "team": {
+    "subtitle": "OUR TEAM",
+    "title": "This is a family business",
+    "description": "We are a couple living in Jönköping, running a small family business with dedication and passion. Our mission is to provide quality cleaning services with a personal touch, ensuring every space we clean feels like home.",
+    "buttonText": "Book an Appointment"
+  },
+  "testimonials": {
+    "subtitle": "Happy Customers",
+    "title": "What our Customers Say",
+    "testimonialsInner": [
+      {
+        "name": "Håkan Lindström",
+        "role": "Carpenter",
+        "description": "Exceptional cleaning service! Always punctual, thorough, and attentive to details. Our home has never looked better."
+      },
+      {
+        "name": "Fatima Khalil",
+        "role": "Sales leader",
+        "description": "Super reliable and professional. They truly care about making your home feel fresh and welcoming. Highly recommend!"
+      },
+      {
+        "name": "Nils Sandberg",
+        "role": "Marketing Coordinator",
+        "description": "Great service at an affordable price. Always impressed with the quality and consistency of their work."
+      }
+    ]
+  }
+}
