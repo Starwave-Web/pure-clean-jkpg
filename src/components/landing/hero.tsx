@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image";
 import React from "react";
 import { Button } from "../ui/button";
@@ -5,12 +7,16 @@ import SectionHeader from "../ui/section-header";
 import { SECTIONS } from "@/src/lib/const";
 import { Link } from "@/src/i18n/routing";
 import { useTranslations } from "next-intl";
+import { scrollToSection } from "@/src/lib/utils";
 
 const Hero = () => {
   const t = useTranslations("hero");
 
   return (
-    <section id={SECTIONS.HERO} className="w-full scroll-mt-28 relative overflow-hidden">
+    <section
+      id={SECTIONS.HERO}
+      className="w-full scroll-mt-28 relative overflow-hidden"
+    >
       <Image
         className="absolute top-[-20%] right-[-60%] md:top-[-50%] md:right-[-30%]"
         height={900}
@@ -18,8 +24,8 @@ const Hero = () => {
         src="/assets/images/hero_background.png"
         alt="hero_bg"
       />
-      <div className="right-[-20%] top-[-30%] w-[125px] h-[125px] md:w-[350px] md:h-[350px]  rounded-full bg-[#1195FF] blur-[125px] md:blur-[300px] absolute"/>
-      <div className="left-[-20%] bottom-[-30%] w-[125px] h-[125px] md:w-[350px] md:h-[350px]  rounded-full bg-[#1195FF] blur-[125px] md:blur-[300px] absolute"/>
+      <div className="right-[-20%] top-[-30%] w-[125px] h-[125px] md:w-[350px] md:h-[350px]  rounded-full bg-[#1195FF] blur-[125px] md:blur-[300px] absolute" />
+      <div className="left-[-20%] bottom-[-30%] w-[125px] h-[125px] md:w-[350px] md:h-[350px]  rounded-full bg-[#1195FF] blur-[125px] md:blur-[300px] absolute" />
       <div className="container mx-auto flex items-end justify-between mt-6 px-4">
         <div className="flex flex-col gap-[8.4375rem]">
           <div className="flex flex-col items-start gap-5">
@@ -34,9 +40,18 @@ const Hero = () => {
             <p className="text-[1rem]/[1.5rem] text-black font-normal">
               {t("description")}
             </p>
-            <Link href="/booking">
-              <Button variant="primary">{t("buttonText")}</Button>
-            </Link>
+            <div className="flex gap-2" >
+              <Link href="/booking">
+                <Button variant="primary">{t("buttonText")}</Button>
+              </Link>
+              <Button
+              className="bg-white text-primary-blue border-2 border-primary-blue hover:text-white active:text-white"
+                onClick={() => scrollToSection(SECTIONS.CONTACTUS)}
+                variant="primary"
+              >
+                {t("buttonText2")}
+              </Button>
+            </div>
           </div>
           <div className="pb-[2.125rem]">
             <SectionHeader

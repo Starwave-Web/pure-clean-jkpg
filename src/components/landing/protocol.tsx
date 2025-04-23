@@ -18,7 +18,7 @@ const Protocol = () => {
           <ul className="text-[1rem]/[1.25rem] md:text-[1.75rem]/[2.375rem] text-primary-blue font-bold uppercase flex flex-col gap-2">
             {t.raw("steps").map((step: string, index: number) => (
               <li key={index} className="flex items-center gap-2.5">
-                <CheckMarkIcon className="w-8 h-8" />
+                <CheckMarkIcon className="w-8 h-8 shrink-0" />
                 {index + 4}. {step}
               </li>
             ))}
