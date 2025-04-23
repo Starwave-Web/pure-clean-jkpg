@@ -60,7 +60,7 @@ const CallbackForm = () => {
       });
       if (res.status === 200) {
         form.reset();
-        router.push("/quote");
+        router.push("/sv/quote");
       } else {
         toast(t("errorTitle"), {
           description: t("errorDescription"),
