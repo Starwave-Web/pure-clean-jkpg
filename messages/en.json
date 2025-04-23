@@ -1,10 +1,10 @@
 {
-    "thankYou": {
-        "heading": "Thank You for Your Submission!",
-        "subheading": "We've received your application and will be in touch soon!",
-        "button": "Return to Home page"
-      },
-      "footer": {
+  "thankYou": {
+    "heading": "Thank You for Your Submission!",
+    "subheading": "We've received your application and will be in touch soon!",
+    "button": "Return to Home page"
+  },
+  "footer": {
     "brand": "PureClean Jönköping",
     "description": "Efficient and reliable cleaning services tailored to your needs, keeping your home and office spotless in Jönköping.",
     "services": {
@@ -27,8 +27,7 @@
       "email": "purecleanjpkg@gmail.com",
       "address": "554 58 Jönköping, Tallörtsbacken 25."
     },
-    "copyright":
-      "Copyright by PureClean Jönköping @ 2025. All rights reserved"
+    "copyright": "Copyright by PureClean Jönköping @ 2025. All rights reserved"
   },
   "navbar": {
     "companyName": "PureClean Jönköping",
@@ -59,6 +58,7 @@
     "titlePart2": "Happy Faces",
     "description": "Efficient and reliable cleaning services tailored to your needs, keeping your home and office spotless in Jönköping.",
     "buttonText": "Book an Appointment",
+    "buttonText2": "Get a Callback",
     "brandsSubtitle": "Quality You Can Trust",
     "brandsTitle": "BRANDS WHO WE USE"
   },
@@ -128,7 +128,8 @@
     "subtitle": "OUR TEAM",
     "title": "This is a family business",
     "description": "We are a couple living in Jönköping, running a small family business with dedication and passion. Our mission is to provide quality cleaning services with a personal touch, ensuring every space we clean feels like home.",
-    "buttonText": "Book an Appointment"
+    "buttonText": "Book an Appointment",
+    "buttonText2": "Get a Callback"
   },
   "testimonials": {
     "subtitle": "Happy Customers",
@@ -150,5 +151,20 @@
         "description": "Great service at an affordable price. Always impressed with the quality and consistency of their work."
       }
     ]
+  },
+  "callbackform": {
+    "phoneNumberPlaceholder": "Enter your phone number",
+    "submitButton": "Request a callback",
+    "errorTitle": "Something went wrong",
+    "errorDescription": "Please try again later or contact us directly.",
+    "validation": {
+      "requiredField": "This field is required.",
+      "characterLimitExceeded": "Phone number is too long."
+    }
+  },
+  "quote": {
+    "heading": "Thank you!",
+    "subheading": "We will reach out to you soon!",
+    "button": "Return to Home page"
   }
 }

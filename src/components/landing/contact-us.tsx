@@ -7,6 +7,7 @@ import tekla from "@/assets/images/tekla.png";
 import endre from "@/assets/images/endre.png";
 import { Link } from "@/src/i18n/routing";
 import { useTranslations } from "next-intl";
+import CallbackForm from "../ui/call-back-form";
 
 const ContactUs = () => {
   const t = useTranslations("contactUs");
@@ -38,7 +39,10 @@ const ContactUs = () => {
             {t("title")}
           </h4>
           <div className="flex gap-2">
-            <Link href="https://www.instagram.com/purecleanjkpg" target="_blank">
+            <Link
+              href="https://www.instagram.com/purecleanjkpg"
+              target="_blank"
+            >
               <Button className="bg-white hover:bg-white/90 active:bg-light-gray">
                 <InstagramIcon />
               </Button>
@@ -70,9 +74,16 @@ const ContactUs = () => {
             </Button>
           </Link>
         </div>
-        {users.map(({ key, ...user }) => (
-          <ContactCard key={key} {...user} />
-        ))}
+        <div className="flex flex-col">
+          <div className="flex flex-col md:flex-row items-start gap-10 md:gap-4 md:items-center justify-between mx-6">
+            {users.map(({ key, ...user }) => (
+              <ContactCard key={key} {...user} />
+            ))}
+          </div>
+          <div className="md:p-4 mt-12 w-full">
+            <CallbackForm/>
+          </div>
+        </div>
       </div>
     </section>
   );

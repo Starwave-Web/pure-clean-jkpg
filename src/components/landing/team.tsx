@@ -1,3 +1,5 @@
+"use client";
+
 import { Button } from "../ui/button";
 import SectionHeader from "../ui/section-header";
 
@@ -6,6 +8,8 @@ import Endre from "@/assets/images/endre.png";
 import EmployeeCard from "../ui/employee-card";
 import { Link } from "@/src/i18n/routing";
 import { useTranslations } from "next-intl";
+import { scrollToSection } from "@/src/lib/utils";
+import { SECTIONS } from "@/src/lib/const";
 
 const Team = () => {
   const t = useTranslations("team");
@@ -20,22 +24,31 @@ const Team = () => {
             alignment="start"
           />
           <p>{t("description")}</p>
-          <Link href="/booking">
-            <Button variant="primary">{t("buttonText")}</Button>
-          </Link>
+          <div className="flex gap-2">
+            <Link href="/booking">
+              <Button variant="primary">{t("buttonText")}</Button>
+            </Link>
+            <Button
+              className="bg-white text-primary-blue border-2 border-primary-blue hover:text-white active:text-white"
+              onClick={() => scrollToSection(SECTIONS.CONTACTUS)}
+              variant="primary"
+            >
+              {t("buttonText2")}
+            </Button>
+          </div>
         </div>
         <div className="flex items-center gap-5">
           <EmployeeCard
             image={Tekla}
             name="Tekla Tamon"
             role="Professional Cleaner"
-            social={{ whatsapp: "+46 79-304 30 07", instagram: "tamontekla" }}
+            social={{ whatsapp: "+46793043007", instagram: "tamontekla" }}
           />
           <EmployeeCard
             image={Endre}
             name="Endre Udvardi"
             role="Professional Cleaner"
-            social={{ whatsapp: "+46 79-341 92 42", instagram: "udvardiendre" }}
+            social={{ whatsapp: "+46793419242", instagram: "udvardiendre" }}
           />
         </div>
       </div>
