@@ -3,15 +3,18 @@
 import { useState } from "react";
 import { BookingIcon, CloseIcon, HamburgerMenu, Logo } from "../icons/common";
 import { Button } from "../ui/button";
-import { scrollToSection } from "@/lib/utils";
-import { SECTIONS } from "@/lib/const";
-import Link from "next/link";
+import { scrollToSection } from "@/src/lib/utils";
+import { SECTIONS } from "@/src/lib/const";
+import { Link } from "@/src/i18n/routing";
 import { usePathname, useRouter } from "next/navigation";
+import { useTranslations } from "next-intl";
+import LocaleToggle from "../ui/toggle-locale";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const router = useRouter();
   const pathname = usePathname();
+  const t = useTranslations("navbar");
 
   const scrollToSectionWeb = (section: string) => {
     if (pathname !== "/") {
@@ -37,7 +40,7 @@ const Navbar = () => {
         >
           <Logo />
           <p className="text-black text-[16px]/[20px]  md:text-[1.5rem]/[1.75rem] font-medium [font-variant:small-caps]">
-            PureClean Jönköping
+            {t("companyName")}
           </p>
         </div>
         <div className="hidden lg:block">
@@ -46,34 +49,34 @@ const Navbar = () => {
               onClick={() => scrollToSectionWeb(SECTIONS.ABOUTUS)}
               className="hover:text-black actice:text-black"
             >
-              About Us
+              {t("aboutUs")}
             </li>
             <li
               onClick={() => scrollToSectionWeb(SECTIONS.SERVICES)}
               className="hover:text-black actice:text-black"
             >
-              Services
+              {t("services")}
             </li>
             <li
               onClick={() => scrollToSectionWeb(SECTIONS.PRICES)}
               className="hover:text-black actice:text-black"
             >
-              Prices
+              {t("prices")}
             </li>
             <li
               onClick={() => scrollToSectionWeb(SECTIONS.CONTACTUS)}
               className="hover:text-black actice:text-black"
             >
-              Contact
+              {t("contact")}
             </li>
-            <li className="hover:text-black actice:text-black">SV | EN</li>
+            <LocaleToggle/>
           </ul>
         </div>
         <div className="flex gap-4 items-center">
           <Link href="/booking">
             <Button variant="primary">
               <BookingIcon />
-              Book an Appointment
+              {t("bookAppointment")}
             </Button>
           </Link>
           <div onClick={() => setOpen(!open)} className="lg:hidden">
@@ -95,33 +98,33 @@ const Navbar = () => {
                 onClick={() => scrollToSectionMobile(SECTIONS.HERO)}
                 className="hover:text-black actice:text-black"
               >
-                Home
+                {t("home")}
               </li>
               <li
                 onClick={() => scrollToSectionMobile(SECTIONS.ABOUTUS)}
                 className="hover:text-black actice:text-black"
               >
-                About Us
+                {t("aboutUs")}
               </li>
               <li
                 onClick={() => scrollToSectionMobile(SECTIONS.SERVICES)}
                 className="hover:text-black actice:text-black"
               >
-                Services
+                {t("services")}
               </li>
               <li
                 onClick={() => scrollToSectionMobile(SECTIONS.PRICES)}
                 className="hover:text-black actice:text-black"
               >
-                Prices
+                {t("prices")}
               </li>
               <li
                 onClick={() => scrollToSectionMobile(SECTIONS.CONTACTUS)}
                 className="hover:text-black actice:text-black"
               >
-                Contact
+                {t("contact")}
               </li>
-              <li className="hover:text-black actice:text-black">SV | EN</li>
+              <LocaleToggle/>
             </ul>
           </div>
         </div>

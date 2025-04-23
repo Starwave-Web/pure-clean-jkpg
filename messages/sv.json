@@ -1,0 +1,153 @@
+{
+  "thankYou": {
+    "heading": "Tack för din inlämning!",
+    "subheading": "Vi har mottagit din ansökan och kommer att kontakta dig snart!",
+    "button": "Återgå till hemsidan"
+  },
+  "footer": {
+    "brand": "PureClean Jönköping",
+    "description": "Effektiva och pålitliga städtjänster anpassade efter dina behov, som håller ditt hem och kontor fläckfritt i Jönköping.",
+    "services": {
+      "title": "Tjänster",
+      "house": "Husstädning",
+      "office": "Kontorsstädning",
+      "deep": "Djuprengöring",
+      "move": "Flyttstädning"
+    },
+    "links": {
+      "title": "Nyttiga länkar",
+      "home": "Hem",
+      "about": "Om oss",
+      "service": "Tjänster",
+      "contact": "Kontakta oss"
+    },
+    "contact": {
+      "title": "Kontakt",
+      "phone": "+46 79 3419 242",
+      "email": "purecleanjpkg@gmail.com",
+      "address": "554 58 Jönköping, Tallörtsbacken 25."
+    },
+    "copyright": "Copyright by PureClean Jönköping @ 2025. Alla rättigheter förbehållna"
+  },
+  "navbar": {
+    "companyName": "PureClean Jönköping",
+    "home": "Hem",
+    "aboutUs": "Om oss",
+    "services": "Tjänster",
+    "prices": "Priser",
+    "contact": "Kontakt",
+    "language": "SV | EN",
+    "bookAppointment": "Boka en tid"
+  },
+  "aboutUs": {
+    "subtitle": "Om oss",
+    "title": "Din pålitliga städpartner i Jönköping",
+    "description1": "Vi är baserade i Jönköping och vi strävar efter att leverera förstklassiga städtjänster anpassade efter dina behov.",
+    "description2": "Vårt mål är att erbjuda exceptionell kvalitet till ett bra pris, så att ditt utrymme alltid är fläckfritt och välkomnande.",
+    "buttonText": "Våra tjänster"
+  },
+  "contactUs": {
+    "title": "Kontakta oss",
+    "description1": "Har du frågor eller behöver du en personlig offert för städning? Kontakta oss idag! Vi är här för att hjälpa dig hålla ditt utrymme fläckfritt och välkomnande.",
+    "description2": "Vi talar engelska just nu, men vi lär oss svenska. Tveka inte att höra av dig på engelska — vi svarar snabbt och gärna!",
+    "buttonText": "Boka en tid"
+  },
+  "hero": {
+    "subtitle": "Din lokala städexpert",
+    "titlePart1": "Fläckfria utrymmen,",
+    "titlePart2": "Leende ansikten",
+    "description": "Effektiva och pålitliga städtjänster anpassade efter dina behov, som håller ditt hem och kontor fläckfritt i Jönköping.",
+    "buttonText": "Boka en tid",
+    "brandsSubtitle": "Kvalitet du kan lita på",
+    "brandsTitle": "VARUMÄRKEN VI ANVÄNDER"
+  },
+  "prices": {
+    "title": "Våra priser",
+    "description": "Vi erbjuder konkurrenskraftiga priser som passar din budget utan att kompromissa med kvaliteten.",
+    "quote": "Offert",
+    "houseCleaning": "Hemstädning",
+    "officeCleaning": "Kontorsstädning",
+    "deepCleaning": "Storstädning",
+    "moveInMoveOutCleaning": "Flyttstädning",
+    "free": "Gratis",
+    "hour": "per timme"
+  },
+  "protocol": {
+    "title": "Strikta städprotokoll",
+    "steps": [
+      "Fönster- och fönsterkarmstädning",
+      "Dammsugning av badrum",
+      "Toalettrengöring",
+      "Tvättning av handfat och kran",
+      "Städning av duschplattor",
+      "Tvättning av duschdörr"
+    ]
+  },
+  "services": {
+    "title": "Omfattande städlösningar",
+    "subtitle": "Våra tjänster",
+    "services": [
+      {
+        "title": "Hemstädning",
+        "description": "Håll ditt hem fläckfritt med anpassade städrutiner som passar din livsstil och ditt schema."
+      },
+      {
+        "title": "Kontorsstädning",
+        "description": "Upprätthåll en prydlig arbetsmiljö med effektiv och pålitlig städning för kontor och kommersiella utrymmen."
+      },
+      {
+        "title": "Storstädning",
+        "description": "Grundlig städning från topp till tå för att fräscha upp ditt utrymme, inklusive svåråtkomliga områden och detaljerad vård."
+      },
+      {
+        "title": "Flyttstädning",
+        "description": "Lämna din gamla plats fläckfri eller din nya plats redo för inflyttning med vår detaljerade städning."
+      }
+    ]
+  },
+  "stats": {
+    "customerSatisfaction": {
+      "title": "98%",
+      "subtitle": "Kundnöjdhet"
+    },
+    "experience": {
+      "title": "5+ år",
+      "subtitle": "erfarenhet"
+    },
+    "recurringClients": {
+      "title": "80%",
+      "subtitle": "återkommande kunder"
+    },
+    "responseTime": {
+      "title": "4 timmar",
+      "subtitle": "responsstid"
+    }
+  },
+  "team": {
+    "subtitle": "VÅRT TEAM",
+    "title": "Det här är ett familjeföretag",
+    "description": "Vi är ett par som bor i Jönköping och driver ett litet familjeföretag med engagemang och passion. Vårt uppdrag är att erbjuda kvalitetsstädning med en personlig touch, så att varje plats vi städar känns som hemma.",
+    "buttonText": "Boka en tid"
+  },
+  "testimonials": {
+    "subtitle": "Nöjda kunder",
+    "title": "Vad våra kunder säger",
+    "testimonialsInner": [
+      {
+        "name": "Håkan Lindström",
+        "role": "Snickare",
+        "description": "En exceptionell städservice! Alltid punktliga, noggranna och uppmärksamma på detaljer. Vårt hem har aldrig sett bättre ut."
+      },
+      {
+        "name": "Fatima Khalil",
+        "role": "Försäljningsledare",
+        "description": "Super pålitliga och professionella. De bryr sig verkligen om att göra ditt hem fräscht och välkomnande. Rekommenderas varmt!"
+      },
+      {
+        "name": "Nils Sandberg",
+        "role": "Marknadskoordinator",
+        "description": "Bra service till ett överkomligt pris. Alltid imponerad av kvaliteten och konsekvensen i deras arbete."
+      }
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 import Image, { type StaticImageData } from "next/image";
 import { InstagramIcon, WhatsAppIcon } from "../icons/landing";
-import Link from "next/link";
+import { Link } from "@/src/i18n/routing";
 
 const EmployeeCard = ({
   image,

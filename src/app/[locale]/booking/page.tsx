@@ -1,4 +1,4 @@
-import CalendlyEmbed from "@/components/ui/calendly-embed";
+import CalendlyEmbed from "@/src/components/ui/calendly-embed";
 
 const Booking = () => {
   return (
