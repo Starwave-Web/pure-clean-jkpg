@@ -20,10 +20,6 @@ export const viewport: Viewport = {
   themeColor: "#ffffff"
 };
 
-const GOOGLE_VERIFICATION_CODE = process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION_CODE || ""
-const META_VERIFICATION_CODE = process.env.NEXT_PUBLIC_META_VERIFICATION_CODE || ""
-const MICROSOFT_VERIFICATION_CODE = process.env.NEXT_PUBLIC_MICROSOFT_VERIFICATION_CODE || ""
-
 export const metadata: Metadata = {
   metadataBase: new URL("https://purecleanjkpg.se"),
   openGraph: {
@@ -54,10 +50,10 @@ export const metadata: Metadata = {
     capable: true
   },
   verification: {
-    google: GOOGLE_VERIFICATION_CODE,
+    google: process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION_CODE || "",
     other: {
-      "msvalidate.01": MICROSOFT_VERIFICATION_CODE, 
-      "facebook-domain-verification": META_VERIFICATION_CODE
+      "msvalidate.01": process.env.NEXT_PUBLIC_MICROSOFT_VERIFICATION_CODE || "", 
+      "facebook-domain-verification": process.env.NEXT_PUBLIC_META_VERIFICATION_CODE || ""
     }
   },
   icons: {
