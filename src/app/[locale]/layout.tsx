@@ -21,6 +21,8 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
+  title:"PureClean Jönköping",
+  description:"PureClean Jönköping erbjuder professionella och pålitliga städtjänster i Jönköping, Sverige. Vi specialiserar oss på hemstädning, kontorsstädning och djupstädning, med fokus på kvalitet och kundnöjdhet.",
   metadataBase: new URL("https://purecleanjkpg.se"),
   openGraph: {
     siteName: "PureClean Jönköping",
