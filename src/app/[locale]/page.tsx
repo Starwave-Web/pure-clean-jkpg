@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     ]
   },
   alternates: {
-    canonical: "https://purecleanjkpg.se"
+    canonical: "https://purecleanjkpg.se/sv"
   }
 };
 
