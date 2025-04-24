@@ -9,6 +9,7 @@ import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/src/i18n/routing";
 import GoogleAnalyticsScripts from "@/src/components/analytics";
+import JSONld from "@/src/components/seo";
 
 const workSans = Work_Sans({
   subsets: ["latin"],
@@ -21,21 +22,11 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title:"PureClean Jönköping",
-  description:"PureClean Jönköping erbjuder professionella och pålitliga städtjänster i Jönköping, Sverige. Vi specialiserar oss på hemstädning, kontorsstädning och djupstädning, med fokus på kvalitet och kundnöjdhet.",
   metadataBase: new URL("https://purecleanjkpg.se"),
   openGraph: {
     siteName: "PureClean Jönköping",
     type: "website",
     locale: "sv_SE",
-    description: "PureClean Jönköping erbjuder professionella och pålitliga städtjänster i Jönköping, Sverige. Vi specialiserar oss på hemstädning, kontorsstädning och djupstädning, med fokus på kvalitet och kundnöjdhet.",
-    images: [
-      {
-        url: "https://purecleanjkpg.se/og-image.jpg",
-        width: 1280,
-        height: 852
-      }
-    ]
   },
   robots: {
     index: true,
@@ -126,6 +117,7 @@ export default async function RootLayout({
           <Footer />
           <Toaster />
           <GoogleAnalyticsScripts/>
+          <JSONld/>
         </NextIntlClientProvider>
       </body>
     </html>
