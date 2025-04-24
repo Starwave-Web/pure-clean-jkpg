@@ -6,7 +6,7 @@ const baseUrl = "https://www.purecleanjkpg.se";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return paths.map((path) => {
-    const url = `${baseUrl}/sv${path}`; // main canonical version
+    const url = `${baseUrl}/sv${path}`;
     const languages = Object.fromEntries(
       locales.map((locale) => [locale, `${baseUrl}/${locale}${path}`])
     );
