@@ -71,7 +71,9 @@
     "deepCleaning": "Storstädning",
     "moveInMoveOutCleaning": "Flyttstädning",
     "free": "Gratis",
-    "hour": "per timme"
+    "hour": "per timme",
+    "applyRut": "Använd 50% RUT-avdrag",
+    "removeRut": "Ta bort 50% RUT-avdrag"
   },
   "protocol": {
     "title": "Strikta städprotokoll",
