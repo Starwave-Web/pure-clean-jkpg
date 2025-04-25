@@ -71,7 +71,9 @@
     "deepCleaning": "Deep Cleaning",
     "moveInMoveOutCleaning": "Move-In/Move-Out Cleaning",
     "free": "Free",
-    "hour": "hour"
+    "hour": "hour",
+    "applyRut": "Apply -50% RUT deduction",
+    "removeRut": "Remove -50% RUT deduction"
   },
   "protocol": {
     "title": "Strict Cleaning Guidelines",

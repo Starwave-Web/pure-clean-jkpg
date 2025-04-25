@@ -1,8 +1,14 @@
+"use client"
 import { SECTIONS } from "@/src/lib/const";
 import { useTranslations } from "next-intl";
+import { useState } from "react";
+import { Button } from "../ui/button";
 
 const Prices = () => {
   const t = useTranslations("prices");
+  const [rutMultiplier, setRutMultiplier] = useState(1)
+
+  const innitialPrice = process.env.NEXT_PUBLIC_INITIAL_PRICE as unknown as number
 
   return (
     <section id={SECTIONS.PRICES} className="w-full px-4 scroll-mt-28">
@@ -14,6 +20,9 @@ const Prices = () => {
           <p className="text-[1.125rem]/[1.3125rem] font-normal">
             {t("description")}
           </p>
+          <div>
+            <Button className="bg-white text-primary-blue hover:bg-white/90 active:bg-light-gray" onClick={() => setRutMultiplier(rutMultiplier === 1 ? 2 : 1)}>{rutMultiplier === 1 ?  t("applyRut") : t("removeRut")}</Button>
+          </div>
         </div>
         <ul className="flex flex-col gap-5 md:whitespace-nowrap">
           <li className="flex justify-between items-baseline gap-4 font-semibold text-[1.25rem]/[1.3125rem]">
@@ -24,22 +33,22 @@ const Prices = () => {
           <li className="flex justify-between items-baseline gap-4 font-semibold text-[1.25rem]/[1.3125rem]">
             <p>{t("houseCleaning")}</p>
             <div className="w-full border border-white border-dashed" />
-            <p>350 SEK/{t("hour")}</p>
+            <p>{innitialPrice / rutMultiplier} SEK/{t("hour")}</p>
           </li>
           <li className="flex justify-between items-baseline gap-4 font-semibold text-[1.25rem]/[1.3125rem]">
             <p>{t("officeCleaning")}</p>
             <div className="w-full border border-white border-dashed" />
-            <p>650 SEK/{t("hour")}</p>
+            <p>{Math.ceil(innitialPrice * 1.333)} SEK/{t("hour")}</p>
           </li>
           <li className="flex justify-between items-baseline gap-4 font-semibold text-[1.25rem]/[1.3125rem]">
             <p>{t("deepCleaning")}</p>
             <div className="w-full border border-white border-dashed" />
-            <p>450 SEK/{t("hour")}</p>
+            <p>{Math.floor(innitialPrice / rutMultiplier * 1.067)} SEK/{t("hour")}</p>
           </li>
           <li className="flex justify-between items-baseline gap-4 font-semibold text-[1.25rem]/[1.3125rem]">
             <p>{t("moveInMoveOutCleaning")}</p>
             <div className="w-full border border-white border-dashed" />
-            <p>500 SEK/{t("hour")}</p>
+            <p>{Math.ceil(innitialPrice / rutMultiplier * 1.111)} SEK/{t("hour")}</p>
           </li>
         </ul>
       </div>
