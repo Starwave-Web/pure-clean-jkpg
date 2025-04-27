@@ -16,6 +16,8 @@ export const metadata: Metadata = {
   description:
     "PureClean Jönköping erbjuder pålitlig och professionell städning i Jönköping, Sverige. Vi specialiserar oss på hemstädning, kontorsstädning och djupstädning med fokus på kvalitet och kundnöjdhet.",
   keywords: [
+    "städfirma Jönköping",
+    "städservice Jönköping",
     "städning Jönköping",
     "miljövänlig städning",
     "städhjälp hemma",
@@ -52,7 +54,7 @@ export const metadata: Metadata = {
     ]
   },
   alternates: {
-    canonical: "https://purecleanjkpg.se/sv"
+    canonical: "https://purecleanjkpg.se"
   }
 };
 
