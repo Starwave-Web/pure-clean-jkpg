@@ -58,7 +58,7 @@
     "titlePart2": "Leende ansikten",
     "description": "Effektiva och pålitliga städtjänster anpassade efter dina behov, som håller ditt hem och kontor fläckfritt i Jönköping.",
     "buttonText": "Boka en tid",
-    "buttonText2": "Få en återuppringning",
+    "buttonText2": "Bli uppringd",
     "brandsSubtitle": "Kvalitet du kan lita på",
     "brandsTitle": "VARUMÄRKEN VI ANVÄNDER"
   },
@@ -131,7 +131,7 @@
     "title": "Det här är ett familjeföretag",
     "description": "Vi är ett par som bor i Jönköping och driver ett litet familjeföretag med engagemang och passion. Vårt uppdrag är att erbjuda kvalitetsstädning med en personlig touch, så att varje plats vi städar känns som hemma.",
     "buttonText": "Boka en tid",
-    "buttonText2": "Få en återuppringning"
+    "buttonText2": "Bli uppringd"
   },
   "testimonials": {
     "subtitle": "Nöjda kunder",
@@ -156,7 +156,7 @@
   },
   "callbackform": {
     "phoneNumberPlaceholder": "Ange ditt telefonnummer",
-    "submitButton": "Begär återuppringning",
+    "submitButton": "Bli uppringd",
     "errorTitle": "Något gick fel",
     "errorDescription": "Försök igen senare eller kontakta oss direkt.",
     "validation": {
