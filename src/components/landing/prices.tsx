@@ -3,7 +3,6 @@ import { SECTIONS } from "@/src/lib/const";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
 import { Button } from "../ui/button";
-import { Ghost } from "lucide-react";
 
 const Prices = () => {
   const t = useTranslations("prices");
