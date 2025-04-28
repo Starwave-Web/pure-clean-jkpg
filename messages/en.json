@@ -73,7 +73,10 @@
     "free": "Free",
     "hour": "hour",
     "applyRut": "Apply -50% RUT deduction",
-    "removeRut": "Remove -50% RUT deduction"
+    "removeRut": "Remove -50% RUT deduction",
+    "learnMore": "Learn more",
+    "closePanel": "Close panel",
+    "RUTinfo": "We offer RUT deduction on all our home services! With RUT, you only pay 50% of the labor cost – we handle the paperwork directly with the Swedish Tax Agency. RUT applies to services like cleaning, gardening, and babysitting. Enjoy professional help at half the price! Contact us today to learn more."
   },
   "protocol": {
     "title": "Strict Cleaning Guidelines",

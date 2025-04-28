@@ -73,7 +73,10 @@
     "free": "Gratis",
     "hour": "per timme",
     "applyRut": "Använd 50% RUT-avdrag",
-    "removeRut": "Ta bort 50% RUT-avdrag"
+    "removeRut": "Ta bort 50% RUT-avdrag",
+    "learnMore": "Läs mer",
+    "closePanel": "Stäng panelen",
+    "RUTinfo": "Vi erbjuder RUT-avdrag på alla våra hushållstjänster! Med RUT betalar du endast 50 % av arbetskostnaden – vi sköter all administration direkt med Skatteverket. RUT gäller tjänster som städning, trädgårdsarbete och barnpassning. Få professionell hjälp till halva priset! Kontakta oss idag för att veta mer."
   },
   "protocol": {
     "title": "Strikta städprotokoll",
